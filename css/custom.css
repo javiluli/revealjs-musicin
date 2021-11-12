@@ -1,0 +1,57 @@
+img {
+  width: 100%;
+}
+
+.w-25 {
+  width: 25%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-3 {
+  flex: 0 0 auto;
+  width: 25%;
+}
+
+.col-4 {
+  flex: 0 0 auto;
+  width: 33.33333333%;
+}
+
+.col-6 {
+  flex: 0 0 auto;
+  width: 50%;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.grid {
+  display: grid;
+}
+
+.link-img {
+  width: 120px;
+  transition: all 0.2s ease;
+}
+
+.link-img:hover {
+  transform: translateY(-10px);
+}
