@@ -7,20 +7,214 @@
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
     />
 
-    <title>reveal.js</title>
+    <title>MusicIn - Seleccionar idioma</title>
 
     <link rel="stylesheet" href="dist/reset.css" />
     <link rel="stylesheet" href="dist/reveal.css" />
     <link rel="stylesheet" href="dist/theme/black.css" />
-
-    <!-- Theme used for syntax highlighted code -->
     <link rel="stylesheet" href="plugin/highlight/monokai.css" />
+
+    <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="css/animation-words.css" />
   </head>
+
   <body>
     <div class="reveal">
       <div class="slides">
-        <section>Diapositiva 1</section>
-        <section>Diapositiva 2</section>
+        <!-- ========================== 2 ========================== -->
+        <section>
+          <img src="svg/musicin.svg" class="w-50" alt="" />
+
+          <div class="textflip">
+            <p class="textflip__text">La aplicacion web para</p>
+            <div class="textflip__words">
+              <span class="textflip__words-span">jovenes</span>
+              <span class="textflip__words-span">entusiastas</span>
+              <span class="textflip__words-span">ambiciosos</span>
+              <span class="textflip__words-span">locos</span>
+              <span class="textflip__words-span">jovenes</span>
+            </div>
+          </div>
+
+          <pre><code class="js" data-noescape>
+  const Persona = {
+    name: 'Ainhoa',
+    age: '21',
+    profession: 'musician',
+    instruments: {
+      guitar: ['classical', 'acoustic', 'electric'],
+    }
+  }
+          </code></pre>
+        </section>
+
+        <!-- ========================== 2 ========================== -->
+        <section>
+          <h2>¿Qué es está aplicación web?</h2>
+          <p>
+            Esta aplicación web es es una herramienta de trabajo para aquellas personas que quieran
+            compartir sus creaciones con el mundo y también para aquellas empresas que están en
+            búsqueda de nuevos talentos musicales.
+          </p>
+        </section>
+
+        <!-- ========================== 3 ========================== -->
+        <section>
+          <!-- ===== 3.1 ===== -->
+          <section>
+            <h2>¿Que es una red social?</h2>
+            <p>
+              Es una plataforma de comunicación a través de internet para que estos generen un
+              perfil permitiendo la comunicación de sus usuarios, de modo que pueden interactuar
+              mediante mensajes, compartir información, imágenes o vídeos, permitiendo que estas
+              publicaciones sean accesibles de forma inmediata por todos los usuarios.
+            </p>
+          </section>
+
+          <!-- ===== 3.2 ===== -->
+          <section>
+            <h2>¿Es una red social?</h2>
+            <p class="fs-big">
+              Te podemos decir que no es, no es Instagram, Twitter, Facebook, Snapchat, Tumblr...es
+              una aplicación donde tú como creador de contenido subes contenido para que empresas
+              que se dediquen a la industria de la música puedan conocerte o puedan ponerse en
+              contacto contigo, si tuviéramos que compararlo con alguna plataforma, sería con
+              Linkedin.
+            </p>
+            <img class="r-stretch" src="img/drakepostin.jpg" alt="meme" />
+          </section>
+        </section>
+
+        <!-- ========================== 4 ========================== -->
+        <section>
+          <!-- ===== 4.1 ===== -->
+          <section>
+            <h2>¿Cómo funciona?</h2>
+            <div class="d-flex">
+              <ul style="text-align: left; font-size: 1.75rem">
+                <li class="fragment" data-fragment-index="1">
+                  <p>
+                    Create una cuenta, simplemente introduce un nombre de usuario, un correo
+                    electronico y una contraseña.
+                  </p>
+                </li>
+                <li class="fragment" data-fragment-index="2">
+                  <p>
+                    Verifica que eres tu mediante el correo electronico que recibiras tras
+                    resgistrarte.
+                  </p>
+                </li>
+                <li class="fragment" data-fragment-index="3">
+                  <p>Inicia sesion con tu nombre de usuario y tu contraseña y ¡listo!</p>
+                </li>
+              </ul>
+              <img src="img/form-registro.png" width="400" alt="" />
+            </div>
+          </section>
+
+          <!-- ===== 4.2 ===== -->
+          <section>
+            <h2>Tipo de usuarios</h2>
+
+            <div class="r-stack">
+              <!-- ===== 4.2.1 ===== -->
+              <div class="fragment fade-out" data-fragment-index="0">
+                <p>Usuario generico/comun</p>
+                <ul style="text-align: left; font-size: 1.75rem">
+                  <li>
+                    <span>
+                      El perfil común engloba a todos los usuarios, ya sean usuarios normales o
+                      usuarios empresariales, TODOS los usuarios tendrán acceso al contenido de la
+                      aplicación y podrán acceder a los perfiles tanto de usuarios como de empresas.
+                    </span>
+                  </li>
+                  <li>
+                    <span>
+                      TODOS los usuarios deberán crear un perfil, determinando si son creadores de
+                      contenido o empresas, dado que cada uno de los perfiles tienen una serie de
+                      características.
+                    </span>
+                  </li>
+                  <li>
+                    <span>
+                      Los usuarios a la hora de crear un perfil deberán seleccionar el género
+                      musical, el tipo de voz y los instrumentos que tocan.
+                    </span>
+                  </li>
+                </ul>
+              </div>
+
+              <!-- ===== 4.2.2 ===== -->
+              <div class="fragment current-visible" data-fragment-index="0">
+                <p>Usuario artista/normal</p>
+                <ul style="text-align: left; font-size: 1.75rem">
+                  <li>
+                    <span>
+                      Los usuarios son los únicos que pueden subir contenido a la plataforma, ese
+                      contenido se tiene que subir en forma de audio, este contenido no estará
+                      limitado en cantidad, no hay límite de contenido.
+                    </span>
+                  </li>
+                  <li>
+                    <span
+                      >Los creadores de contenido tendrán acceso a un software que le proporciona la
+                      propia aplicación, este software es una herramienta de edición de música.
+                    </span>
+                  </li>
+                  <li>
+                    <span>
+                      Los creadores de contenido a la hora de crear un perfil deberán establecer
+                      cuales son sus características como músicos,
+                    </span>
+                  </li>
+                </ul>
+              </div>
+
+              <!-- ===== 4.2.3 ===== -->
+              <div class="fragment">
+                <p>Usuario empresarial</p>
+                <ul style="text-align: left; font-size: 1.75rem">
+                  <li>
+                    <span>
+                      Los usuarios de tipo empresa por su parte tendrán la opción de filtrar para
+                      buscar aquellos perfiles que se adapten a sus necesidades, es decir, tendrán
+                      acceso a un motor de búsqueda avanzado que les permitan filtrar los perfiles y
+                      buscar los perfiles que necesiten.
+                    </span>
+                  </li>
+                  <li>
+                    <span>
+                      Los usuarios de tipo empresa, podrán descargar el contenido de la plataforma,
+                      pero previamente tiene que ponerse en contacto con el creador de contenido
+                      para poder descargar dicho contenido.
+                    </span>
+                  </li>
+                  <li>
+                    <span>
+                      La aplicación también tendrá un sistema de mensajería, los usuarios y las
+                      empresas podrán ponerse en contacto a través de este chat. Pero SÓLO podrán
+                      empezar las conversaciones las empresas, los usuarios no podrán ponerse en
+                      contacto con las empresas por medio de este sistema de mensajería.
+                    </span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </section>
+
+        <!-- ========================== 5 ========================== -->
+        <section>
+          <h2>¿Cuánto cuesta?</h2>
+          <p>
+            La aplicación será totalmente gratuita, la aplicación está enfocada en ayudar a conectar
+            a las personas que tienen un talento que ofrecer y a las empresas que buscan nuevos
+            talentos.
+          </p>
+          <p>
+            La aplicación no ofrecerá ningún tipo de remuneración a los usuarios ni a las empresas.
+          </p>
+        </section>
       </div>
     </div>
 
