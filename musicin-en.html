@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ee">
+<html lang="es">
   <head>
     <meta charset="utf-8" />
     <meta
@@ -7,20 +7,193 @@
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
     />
 
-    <title>reveal.js</title>
+    <title>MusicIn - Seleccionar idioma</title>
 
     <link rel="stylesheet" href="dist/reset.css" />
     <link rel="stylesheet" href="dist/reveal.css" />
     <link rel="stylesheet" href="dist/theme/black.css" />
-
-    <!-- Theme used for syntax highlighted code -->
     <link rel="stylesheet" href="plugin/highlight/monokai.css" />
+
+    <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="css/animation-words.css" />
   </head>
+
   <body>
     <div class="reveal">
       <div class="slides">
-        <section>Slide 1</section>
-        <section>Slide 2</section>
+        <!-- ========================== 1 ========================== -->
+        <section>
+          <img src="svg/musicin.svg" class="w-50" alt="" />
+
+          <div class="textflip">
+            <p class="textflip__text">The web app for</p>
+            <div class="textflip__words">
+              <span class="textflip__words-span">young</span>
+              <span class="textflip__words-span">enthusiastic</span>
+              <span class="textflip__words-span">ambitious</span>
+              <span class="textflip__words-span">crazy</span>
+              <span class="textflip__words-span">young</span>
+            </div>
+          </div>
+
+          <pre><code class="js" data-noescape>
+  const Person = {
+    name: 'Ainhoa',
+    age: '21',
+    profession: 'musician',
+    instruments: {
+      guitar: ['classical', 'acoustic', 'electric'],
+    }
+  }
+          </code></pre>
+        </section>
+
+        <!-- ========================== 2 ========================== -->
+        <section>
+          <h2>What is this App?</h2>
+          <p>
+            It is a work tool for those people who want to share their creations with the world and
+            also for those companies that are in search of new musical talents.
+          </p>
+        </section>
+
+        <!-- ========================== 3 ========================== -->
+        <section>
+          <!-- ===== 3.1 ===== -->
+          <section>
+            <h2>What is a social network?</h2>
+            <p>
+              It is an internet platform that allows communication between users. The users can
+              speak for messages, they can share information, photos, videos, etc. This publication
+              can be seen by other users immediately.
+            </p>
+          </section>
+
+          <!-- ===== 3.2 ===== -->
+          <section>
+            <h2>What are we?</h2>
+            <p class="fs-big">
+              We are not Instagram, Twitter, Facebook, Snapchat, Tumblr, etc..., in this is an App
+              you can be a content creator, you can post your creations and these creations can be
+              seen by companies. These companies can meet you, if we had to compare with some
+              platform, the platform would be Linkedin.
+            </p>
+            <img class="r-stretch" src="img/drakepostin.jpg" alt="meme" />
+          </section>
+        </section>
+
+        <!-- ========================== 4 ========================== -->
+        <section>
+          <!-- ===== 4.1 ===== -->
+          <section>
+            <h2>How to use?</h2>
+            <div class="d-flex">
+              <ul style="text-align: left; font-size: 1.75rem">
+                <li class="fragment" data-fragment-index="1">
+                  <p>
+                    We need to create an account, you must register with a nickname, email and
+                    password.
+                  </p>
+                </li>
+                <li class="fragment" data-fragment-index="2">
+                  <p>Your account must be verified with your email.</p>
+                </li>
+                <li class="fragment" data-fragment-index="3">
+                  <p>You must log in with your nickname and your password and enjoy!</p>
+                </li>
+              </ul>
+              <img src="img/form-registro.png" width="400" alt="" />
+            </div>
+          </section>
+
+          <!-- ===== 4.2 ===== -->
+          <section>
+            <h2>Different profiles</h2>
+
+            <div class="r-stack">
+              <!-- ===== 4.2.1 ===== -->
+              <div class="fragment fade-out" data-fragment-index="0">
+                <p>Ordinary</p>
+                <ul style="text-align: left; font-size: 1.75rem">
+                  <li>
+                    <p>
+                      All users will have access to the content of the application and they can
+                      access profiles of content creators and companies.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      All users will have to create to profile, they have to choose if they are
+                      content creator or company
+                    </p>
+                  </li>
+                </ul>
+              </div>
+
+              <!-- ===== 4.2.2 ===== -->
+              <div class="fragment current-visible" data-fragment-index="0">
+                <p>Content creator</p>
+                <ul style="text-align: left; font-size: 1.75rem">
+                  <li>
+                    <p>
+                      The content creators are the only they can upload files to the App. They don't
+                      have a limit of files. These files must be type audio.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      The content creators will have access to software of music edition, they must
+                      download the program and installer on the telephone or on the computer, the
+                      name of this program is TIKTAK.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      The content creators must select the musical genre, type of voice and the
+                      musical instrument that they know.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+
+              <!-- ===== 4.2.3 ===== -->
+              <div class="fragment">
+                <p>Company</p>
+                <ul style="text-align: left; font-size: 1.75rem">
+                  <li>
+                    <p>
+                      The companies will have access to advanced search engines, they can search for
+                      the profiles they need.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      The companies will be able to download the content of profiles but they should
+                      first contact the content creator to download the file.
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      The App will have a chat system, the content creators and companies will be
+                      able to speak across this chat but only companies will be able to start the
+                      chat, the content creators will not be able to contact the companies.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </section>
+
+        <!-- ========================== 5 ========================== -->
+        <section>
+          <h2>What do you need to get started?</h2>
+          <p>
+            He App is totally FREE, the App wants to help contact content creators and companies.
+            The App will not pay users or companies.
+          </p>
+          <p>The App will not pay users or companies.</p>
+        </section>
       </div>
     </div>
 
