@@ -1,0 +1,11 @@
+.img-max-w {
+  max-width: 250px !important;
+}
+
+.card-upp {
+  transform: translateY(-15px);
+}
+
+.card-off {
+  opacity: 0.4;
+}
